@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3C4A0323684D0E0077A9E8 /* names+images+colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4A0223684D0E0077A9E8 /* names+images+colors.swift */; };
 		2BDDE50B23684BEE00A9B918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDE50A23684BEE00A9B918 /* AppDelegate.swift */; };
 		2BDDE50D23684BEE00A9B918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDE50C23684BEE00A9B918 /* SceneDelegate.swift */; };
 		2BDDE50F23684BEE00A9B918 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDE50E23684BEE00A9B918 /* MasterViewController.swift */; };
-		2BDDE51123684BEE00A9B918 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDE51023684BEE00A9B918 /* DetailViewController.swift */; };
+		2BDDE51123684BEE00A9B918 /* ImagePresentationVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDE51023684BEE00A9B918 /* ImagePresentationVc.swift */; };
 		2BDDE51423684BEE00A9B918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDDE51223684BEE00A9B918 /* Main.storyboard */; };
 		2BDDE51623684BEF00A9B918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDDE51523684BEF00A9B918 /* Assets.xcassets */; };
 		2BDDE51923684BEF00A9B918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDDE51723684BEF00A9B918 /* LaunchScreen.storyboard */; };
@@ -36,11 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B3C4A0223684D0E0077A9E8 /* names+images+colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "names+images+colors.swift"; sourceTree = "<group>"; };
 		2BDDE50723684BEE00A9B918 /* Flower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDDE50A23684BEE00A9B918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDDE50C23684BEE00A9B918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2BDDE50E23684BEE00A9B918 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		2BDDE51023684BEE00A9B918 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2BDDE51023684BEE00A9B918 /* ImagePresentationVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePresentationVc.swift; sourceTree = "<group>"; };
 		2BDDE51323684BEE00A9B918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BDDE51523684BEF00A9B918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BDDE51823684BEF00A9B918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,11 +106,12 @@
 				2BDDE50A23684BEE00A9B918 /* AppDelegate.swift */,
 				2BDDE50C23684BEE00A9B918 /* SceneDelegate.swift */,
 				2BDDE50E23684BEE00A9B918 /* MasterViewController.swift */,
-				2BDDE51023684BEE00A9B918 /* DetailViewController.swift */,
+				2BDDE51023684BEE00A9B918 /* ImagePresentationVc.swift */,
 				2BDDE51223684BEE00A9B918 /* Main.storyboard */,
 				2BDDE51523684BEF00A9B918 /* Assets.xcassets */,
 				2BDDE51723684BEF00A9B918 /* LaunchScreen.storyboard */,
 				2BDDE51A23684BEF00A9B918 /* Info.plist */,
+				2B3C4A0223684D0E0077A9E8 /* names+images+colors.swift */,
 			);
 			path = Flower;
 			sourceTree = "<group>";
@@ -263,9 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDDE50B23684BEE00A9B918 /* AppDelegate.swift in Sources */,
+				2B3C4A0323684D0E0077A9E8 /* names+images+colors.swift in Sources */,
 				2BDDE50D23684BEE00A9B918 /* SceneDelegate.swift in Sources */,
 				2BDDE50F23684BEE00A9B918 /* MasterViewController.swift in Sources */,
-				2BDDE51123684BEE00A9B918 /* DetailViewController.swift in Sources */,
+				2BDDE51123684BEE00A9B918 /* ImagePresentationVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
